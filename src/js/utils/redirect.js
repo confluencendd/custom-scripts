@@ -1,5 +1,4 @@
-import { linksDocumentsMap } from '../resources/resources'
-
+import linksDocumentsMapResources from '../resources/linksDocumentsMapResources.json'
 
 export function redirectLinks(lang) {
 
@@ -9,12 +8,12 @@ export function redirectLinks(lang) {
 
         const originalLink = link.href;
 
-        if (!linksDocumentsMap[lang][originalLink]) {
-            //console.warn(`WARNING: This link: ${link} does not have redirects. \n Check the linksDocumentsMap Object`);
+        if (!linksDocumentsMapResources[lang][originalLink]) {
+            //console.warn(`WARNING: This link: ${link} does not have redirects. \n Check the linksDocumentsMapResources Object`);
             return;
         }
 
-        link.href = linksDocumentsMap[lang][originalLink];
+        link.href = linksDocumentsMapResources[lang][originalLink];
         link.setAttribute('target', '_blank');
 
     })

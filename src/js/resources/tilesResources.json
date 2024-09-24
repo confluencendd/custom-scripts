@@ -1,0 +1,36 @@
+{
+  "pt": {
+    "Conheça o NDD Orbix": {
+      "headline": "Conheça o NDD Orbix",
+      "description": "Explores módulos e recursos e saiba como podemos ajudar na sustentabilidade do seu negócio."
+    },
+    "Manuais": {
+      "headline": "Manuais",
+      "description": "Guia completo de instalação e integração com o NDD Orbix: pré-requisitos e manuais."
+    },
+    "O que há de novo?": {
+      "headline": "O que há de novo?",
+      "description": "Histórico de versões, novas funcionalidades e correções."
+    },
+    "FAQ": {
+      "headline": "FAQ"
+    }
+  },
+  "en": {
+    "Conheça o NDD Orbix": {
+      "headline": "Discover NDD Orbix",
+      "description": "Explore modules and features and see how we can help with the sustainability of your business."
+    },
+    "Manuais": {
+      "headline": "Manuals",
+      "description": "Complete guide to installation and integration with NDD Orbix: prerequisites and manuals."
+    },
+    "O que há de novo?": {
+      "headline": "What's new?",
+      "description": "Version history, new features and fixes."
+    },
+    "FAQ": {
+      "headline": "FAQ - EN"
+    }
+  }
+}
