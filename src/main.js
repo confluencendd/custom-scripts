@@ -8,6 +8,8 @@ import { translateCategories } from './js/translation/categories';
 import { translateHeaderLinks } from './js/translation/headerLinks';
 import { translatePlaceholderSearchBar } from './js/translation/placeholder';
 
+import { formatBreadcrumbs } from './js/utils/breadcrumbs';
+
 const languagePicked = getCurrentLanguage();
 const product = getCurrentProduct();
 
@@ -21,3 +23,5 @@ runFunctionByRoute(() => translateHeaderLinks(product, languagePicked));
 runFunctionByRoute(() => redirectLinks(product, languagePicked), '/');
 
 runFunctionByRoute(() => translatePlaceholderSearchBar(languagePicked));
+
+runFunctionByRoute(() => formatBreadcrumbs());

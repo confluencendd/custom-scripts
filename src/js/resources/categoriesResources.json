@@ -21,6 +21,17 @@
       "Segurança e compliance": {
         "text": "Security & compliance"
       }
+    },
+    "es": {
+      "Informações complementares": {
+        "text": "Más información"
+      },
+      "Preciso de ajuda": {
+        "text": "Busco ayuda"
+      },
+      "Segurança e compliance": {
+        "text": "Seguridad y compliance"
+      }
     }
   },
   "ndd orbix": {
@@ -44,6 +55,17 @@
       },
       "Segurança e compliance": {
         "text": "Security & compliance"
+      }
+    },
+    "es": {
+      "Informações complementares": {
+        "text": "Más información"
+      },
+      "Preciso de ajuda": {
+        "text": "Busco ayuda"
+      },
+      "Segurança e compliance": {
+        "text": "Seguridad y compliance"
       }
     }
   }

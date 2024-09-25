@@ -1,3 +1,5 @@
+require("./app.css");
+
 
 function $parcel$interopDefault(a) {
   return a && a.__esModule ? a.default : a;
@@ -78,7 +80,7 @@ function $ed17317835264a01$export$ac45879b58ed4b07(product, lang) {
 
 
 var $56669774ddba6fe6$exports = {};
-$56669774ddba6fe6$exports = JSON.parse('{"testes":{"pt":{"Informa\xe7\xf5es complementares":{"text":"Informa\xe7\xf5es complementares"},"Preciso de ajuda":{"text":"Preciso de ajuda"},"Seguran\xe7a e compliance":{"text":"Seguran\xe7a e compliance"}},"en":{"Informa\xe7\xf5es complementares":{"text":"Further information"},"Preciso de ajuda":{"text":"I need some help"},"Seguran\xe7a e compliance":{"text":"Security & compliance"}}},"ndd orbix":{"pt":{"Informa\xe7\xf5es complementares":{"text":"Informa\xe7\xf5es complementares"},"Preciso de ajuda":{"text":"Preciso de ajuda"},"Seguran\xe7a e compliance":{"text":"Seguran\xe7a e compliance"}},"en":{"Informa\xe7\xf5es complementares":{"text":"Further information"},"Preciso de ajuda":{"text":"I need some help"},"Seguran\xe7a e compliance":{"text":"Security & compliance"}}}}');
+$56669774ddba6fe6$exports = JSON.parse('{"testes":{"pt":{"Informa\xe7\xf5es complementares":{"text":"Informa\xe7\xf5es complementares"},"Preciso de ajuda":{"text":"Preciso de ajuda"},"Seguran\xe7a e compliance":{"text":"Seguran\xe7a e compliance"}},"en":{"Informa\xe7\xf5es complementares":{"text":"Further information"},"Preciso de ajuda":{"text":"I need some help"},"Seguran\xe7a e compliance":{"text":"Security & compliance"}},"es":{"Informa\xe7\xf5es complementares":{"text":"M\xe1s informaci\xf3n"},"Preciso de ajuda":{"text":"Busco ayuda"},"Seguran\xe7a e compliance":{"text":"Seguridad y compliance"}}},"ndd orbix":{"pt":{"Informa\xe7\xf5es complementares":{"text":"Informa\xe7\xf5es complementares"},"Preciso de ajuda":{"text":"Preciso de ajuda"},"Seguran\xe7a e compliance":{"text":"Seguran\xe7a e compliance"}},"en":{"Informa\xe7\xf5es complementares":{"text":"Further information"},"Preciso de ajuda":{"text":"I need some help"},"Seguran\xe7a e compliance":{"text":"Security & compliance"}},"es":{"Informa\xe7\xf5es complementares":{"text":"M\xe1s informaci\xf3n"},"Preciso de ajuda":{"text":"Busco ayuda"},"Seguran\xe7a e compliance":{"text":"Seguridad y compliance"}}}}');
 
 
 function $5c24a9cd18c1eb33$export$1d968f626f4867a0(product, lang) {
@@ -156,6 +158,17 @@ function $0fc197b0b1892979$export$f39dfbe41373d15f(lang) {
 }
 
 
+
+function $5b771740536c8db8$export$48aa1809b20ef1c3() {
+    const breadcrumbHome = document.querySelector("ol.breadcrumbs > li:nth-child(1) > a");
+    if (!breadcrumbHome) {
+        console.warn(`WARNING: Breadcrumb not found`);
+        return;
+    }
+    breadcrumbHome.textContent = "";
+}
+
+
 const $95930220612465e5$var$languagePicked = (0, $75d7376a7fc1001f$export$604ba5624273df44)();
 const $95930220612465e5$var$product = (0, $73dd53774cf84dc1$export$d01408ed6f850a64)();
 (0, $0338f0fd1d201d30$export$ee302119ce9aa13b)(()=>(0, $ed17317835264a01$export$ac45879b58ed4b07)($95930220612465e5$var$product, $95930220612465e5$var$languagePicked), "/");
@@ -163,6 +176,7 @@ const $95930220612465e5$var$product = (0, $73dd53774cf84dc1$export$d01408ed6f850
 (0, $0338f0fd1d201d30$export$ee302119ce9aa13b)(()=>(0, $0bef1161658a365b$export$1edb4355a6269a50)($95930220612465e5$var$product, $95930220612465e5$var$languagePicked));
 (0, $0338f0fd1d201d30$export$ee302119ce9aa13b)(()=>(0, $a8557712adc6aeba$export$2d4a6191d4d5b892)($95930220612465e5$var$product, $95930220612465e5$var$languagePicked), "/");
 (0, $0338f0fd1d201d30$export$ee302119ce9aa13b)(()=>(0, $0fc197b0b1892979$export$f39dfbe41373d15f)($95930220612465e5$var$languagePicked));
+(0, $0338f0fd1d201d30$export$ee302119ce9aa13b)(()=>(0, $5b771740536c8db8$export$48aa1809b20ef1c3)());
 
 
-//# sourceMappingURL=main.js.map
+//# sourceMappingURL=app.js.map
