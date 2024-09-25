@@ -9,8 +9,9 @@ function $75d7376a7fc1001f$export$604ba5624273df44() {
 
 
 function $73dd53774cf84dc1$export$d01408ed6f850a64() {
-    const titleTag = document.querySelector("title").textContent.split("|");
-    const currentProduct = titleTag[1].toLowerCase().trim();
+    const productUrl = document.URL.split("-");
+    const productName = productUrl[1].split(".");
+    const currentProduct = productName[0].toLowerCase().trim();
     return currentProduct;
 }
 
@@ -160,7 +161,7 @@ const $95930220612465e5$var$product = (0, $73dd53774cf84dc1$export$d01408ed6f850
 (0, $0338f0fd1d201d30$export$ee302119ce9aa13b)(()=>(0, $ed17317835264a01$export$ac45879b58ed4b07)($95930220612465e5$var$product, $95930220612465e5$var$languagePicked), "/");
 (0, $0338f0fd1d201d30$export$ee302119ce9aa13b)(()=>(0, $5c24a9cd18c1eb33$export$1d968f626f4867a0)($95930220612465e5$var$product, $95930220612465e5$var$languagePicked), "/");
 (0, $0338f0fd1d201d30$export$ee302119ce9aa13b)(()=>(0, $0bef1161658a365b$export$1edb4355a6269a50)($95930220612465e5$var$product, $95930220612465e5$var$languagePicked));
-(0, $0338f0fd1d201d30$export$ee302119ce9aa13b)(()=>(0, $a8557712adc6aeba$export$2d4a6191d4d5b892)($95930220612465e5$var$product, $95930220612465e5$var$languagePicked));
+(0, $0338f0fd1d201d30$export$ee302119ce9aa13b)(()=>(0, $a8557712adc6aeba$export$2d4a6191d4d5b892)($95930220612465e5$var$product, $95930220612465e5$var$languagePicked), "/");
 (0, $0338f0fd1d201d30$export$ee302119ce9aa13b)(()=>(0, $0fc197b0b1892979$export$f39dfbe41373d15f)($95930220612465e5$var$languagePicked));
 
 

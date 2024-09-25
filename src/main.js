@@ -18,6 +18,6 @@ runFunctionByRoute(() => translateCategories(product, languagePicked), '/');
 
 runFunctionByRoute(() => translateHeaderLinks(product, languagePicked));
 
-runFunctionByRoute(() => redirectLinks(product, languagePicked));
+runFunctionByRoute(() => redirectLinks(product, languagePicked), '/');
 
 runFunctionByRoute(() => translatePlaceholderSearchBar(languagePicked));
