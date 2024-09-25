@@ -15,7 +15,7 @@ export function translatePlaceholderSearchBar(lang) {
             break;
         default:
             searchInput.setAttribute("placeholder", placeholderResources.pt);
-            console.warn(`WARNING: There are not translations for search-box placeholder. \n Check the placeholderResources Object`);
+            console.warn(`WARNING: There are not translations in ${lang} for search-box placeholder. \n Check the placeholderResources Object`);
             break;
     }
 }
