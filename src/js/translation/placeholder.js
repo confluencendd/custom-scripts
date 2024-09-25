@@ -1,6 +1,6 @@
 import placeholderResources from '../resources/placeholderResources.json'
 
-export function translatePlaceholderSearchBar(lang = "pt") {
+export function translatePlaceholderSearchBar(lang) {
     const searchInput = document.querySelector('input.vp-search-input__input');
 
     switch (lang) {
@@ -14,8 +14,8 @@ export function translatePlaceholderSearchBar(lang = "pt") {
             searchInput.setAttribute("placeholder", placeholderResources[lang]);
             break;
         default:
-            searchInput.setAttribute("placeholder", placeholderResources[lang]);
-            console.warn(`WARNING: There are not translations for this placeholder. \n Check the placeholderResources Object`);
+            searchInput.setAttribute("placeholder", placeholderResources.pt);
+            console.warn(`WARNING: There are not translations for search-box placeholder. \n Check the placeholderResources Object`);
             break;
     }
 }
