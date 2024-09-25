@@ -1,26 +1,54 @@
 {
-  "pt": {
-    "Acesse o NDD Orbix": {
-      "text": "Acesse o NDD Orbix"
+  "testes": {
+    "pt": {
+      "Acesse o NDD Orbix": {
+        "text": "Acesse o NDD Orbix"
+      },
+      "Vendas": {
+        "text": "Vendas"
+      }
     },
-    "Vendas": {
-      "text": "Vendas"
+    "en": {
+      "Acesse o NDD Orbix": {
+        "text": "Try NDD Orbix"
+      },
+      "Vendas": {
+        "text": "Sales"
+      }
+    },
+    "es": {
+      "Acesse o NDD Orbix": {
+        "text": "Acceda a NDD Orbix"
+      },
+      "Vendas": {
+        "text": "Ventas"
+      }
     }
   },
-  "en": {
-    "Acesse o NDD Orbix": {
-      "text": "Try NDD Orbix"
+  "ndd orbix": {
+    "pt": {
+      "Acesse o NDD Orbix": {
+        "text": "Acesse o NDD Orbix"
+      },
+      "Vendas": {
+        "text": "Vendas"
+      }
     },
-    "Vendas": {
-      "text": "Sales"
-    }
-  },
-  "es": {
-    "Acesse o NDD Orbix": {
-      "text": "Acceda a NDD Orbix"
+    "en": {
+      "Acesse o NDD Orbix": {
+        "text": "Try NDD Orbix"
+      },
+      "Vendas": {
+        "text": "Sales"
+      }
     },
-    "Vendas": {
-      "text": "Ventas"
+    "es": {
+      "Acesse o NDD Orbix": {
+        "text": "Acceda a NDD Orbix"
+      },
+      "Vendas": {
+        "text": "Ventas"
+      }
     }
   }
 }

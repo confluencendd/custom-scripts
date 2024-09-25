@@ -1,24 +1,50 @@
 {
-  "pt": {
-    "Informações complementares": {
-      "text": "Informações complementares"
+  "testes": {
+    "pt": {
+      "Informações complementares": {
+        "text": "Informações complementares"
+      },
+      "Preciso de ajuda": {
+        "text": "Preciso de ajuda"
+      },
+      "Segurança e compliance": {
+        "text": "Segurança e compliance"
+      }
     },
-    "Preciso de ajuda": {
-      "text": "Preciso de ajuda"
-    },
-    "Segurança e compliance": {
-      "text": "Segurança e compliance"
+    "en": {
+      "Informações complementares": {
+        "text": "Further information"
+      },
+      "Preciso de ajuda": {
+        "text": "I need some help"
+      },
+      "Segurança e compliance": {
+        "text": "Security & compliance"
+      }
     }
   },
-  "en": {
-    "Informações complementares": {
-      "text": "Further information"
+  "ndd orbix": {
+    "pt": {
+      "Informações complementares": {
+        "text": "Informações complementares"
+      },
+      "Preciso de ajuda": {
+        "text": "Preciso de ajuda"
+      },
+      "Segurança e compliance": {
+        "text": "Segurança e compliance"
+      }
     },
-    "Preciso de ajuda": {
-      "text": "I need some help"
-    },
-    "Segurança e compliance": {
-      "text": "Security & compliance"
+    "en": {
+      "Informações complementares": {
+        "text": "Further information"
+      },
+      "Preciso de ajuda": {
+        "text": "I need some help"
+      },
+      "Segurança e compliance": {
+        "text": "Security & compliance"
+      }
     }
   }
 }

@@ -1,20 +1,23 @@
-import { getCurrentLanguage } from './js/utils/language'
+import { getCurrentLanguage } from './js/utils/getLanguage'
+import { getCurrentProduct } from './js/utils/getProduct';
 import { runFunctionByRoute } from './js/utils/route'
 import { redirectLinks } from './js/utils/redirect'
 
-import { translateTiles } from './js/translation/tiles.js';
-import { translateCategories } from './js/translation/categories.js';
-import { translateHeaderLinks } from './js/translation/headerLinks.js';
-import { translatePlaceholderSearchBar } from './js/translation/placeholder.js';
+import { translateTiles } from './js/translation/tiles';
+import { translateCategories } from './js/translation/categories';
+import { translateHeaderLinks } from './js/translation/headerLinks';
+import { translatePlaceholderSearchBar } from './js/translation/placeholder';
 
 const languagePicked = getCurrentLanguage();
+const product = getCurrentProduct();
 
-runFunctionByRoute(() => translateTiles(languagePicked), '/');
 
-runFunctionByRoute(() => translateCategories(languagePicked), '/');
+runFunctionByRoute(() => translateTiles(product, languagePicked), '/');
 
-runFunctionByRoute(() => translateHeaderLinks(languagePicked));
+runFunctionByRoute(() => translateCategories(product, languagePicked), '/');
 
-runFunctionByRoute(() => redirectLinks(languagePicked));
+runFunctionByRoute(() => translateHeaderLinks(product, languagePicked));
+
+runFunctionByRoute(() => redirectLinks(product, languagePicked));
 
 runFunctionByRoute(() => translatePlaceholderSearchBar(languagePicked));
