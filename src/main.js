@@ -1,3 +1,5 @@
+import * as styles from '../src/css/main.css';
+
 import { getCurrentLanguage } from './js/utils/getLanguage'
 import { getCurrentProduct } from './js/utils/getProduct';
 import { runFunctionByRoute } from './js/utils/route'
