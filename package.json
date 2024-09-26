@@ -1,0 +1,17 @@
+{
+  "name": "custom-scripts",
+  "version": "1.0.0",
+  "source": "src/main.js",
+  "module": "dist/ndd-app.js",
+  "scripts": {
+    "serve": "parcel serve",
+    "dev": "parcel watch",
+    "prod": "parcel build"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
