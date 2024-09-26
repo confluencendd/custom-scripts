@@ -1,8 +1,9 @@
 /* IMPORTS */
 @import url("https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap");
-/* font-family: "MuseoModerno", sans-serif; */
+@import url("nddorbix.css");
 
 /* ---------------------- ROOT ---------------------- */
+
 :root {
   --ndd-white-color: #ffffff;
   --ndd-text-color: #4e4e4e;
@@ -28,9 +29,6 @@
   --ndd-dark-color: #222938;
   --ndd-dark-hover-color: #151c2b;
 
-  --ndd-orbix-primary-color: #4f0d9e;
-  --ndd-orbix-hover-color: #3f0981;
-
   --ndd-background-color: #f0f0f0;
 
   --ndd-border-radius-tiny: 4px;
@@ -53,32 +51,9 @@ ul.render-links {
 
 li.render-links--link {
   border-radius: var(--ndd-border-radius-small);
-  -webkit-transition: background-color 0.3s linear;
-  -ms-transition: background-color 0.3s linear;
-  transition: background-color 0.3s linear;
-}
-
-/* --- FIRST LINK --- */
-li.render-links--link:nth-child(1) {
-  background-color: var(--ndd-dark-color);
-}
-
-li.render-links--link:nth-child(1):hover {
-  background-color: var(--ndd-dark-hover-color);
-  -webkit-transition: background-color 0.3s linear;
-  -ms-transition: background-color 0.3s linear;
-  transition: background-color 0.3s linear;
-}
-
-/* --- SECOND LINK --- */
-li.render-links--link:nth-child(2) {
-  background-color: var(--ndd-orbix-primary-color);
-}
-li.render-links--link:nth-child(2):hover {
-  background-color: var(--ndd-orbix-hover-color);
-  -webkit-transition: background-color 0.3s linear;
-  -ms-transition: background-color 0.3s linear;
-  transition: background-color 0.3s linear;
+  -webkit-transition: background-color 0.3s cubic-bezier(.165, .84, .44, 1);
+  -ms-transition: background-color 0.3s cubic-bezier(.165, .84, .44, 1);
+  transition: background-color 0.3s cubic-bezier(.165, .84, .44, 1);
 }
 
 li.render-links--link a {
@@ -114,9 +89,9 @@ h1.vp-banner-text {
 .vp-search-input,
 .vp-dropdown__button {
   border-radius: var(--ndd-border-radius-medium);
-  -webkit-transition: background-color 0.3s linear;
-  -ms-transition: background-color 0.3s linear;
-  transition: background-color 0.3s linear;
+  -webkit-transition: background-color 0.3s cubic-bezier(.165, .84, .44, 1);
+  -ms-transition: background-color 0.3s cubic-bezier(.165, .84, .44, 1);
+  transition: background-color 0.3s cubic-bezier(.165, .84, .44, 1);
 }
 
 .vp-dropdown--searchbar .vp-dropdown__button[aria-expanded="false"] {
@@ -229,53 +204,10 @@ img.tile__image {
   max-width: 50px;
 }
 
-h3.tile__headline {
-  font-size: 18px;
-  text-align: left;
-  color: var(--ndd-orbix-primary-color);
-}
-
 p.tile__description {
   color: var(--ndd-text-color);
   text-align: justify;
 }
-
-/* --- TILES HELP CATEGORY --- */
-
-@media (min-width: 768px) {
-  ul[aria-labelledby="Precisodeajuda"] > li.tile {
-    grid-column: span 3 / span 3;
-  }
-}
-
-ul[aria-labelledby="Precisodeajuda"] > li.tile--spacious {
-  align-items: center;
-  color: var(--ndd-text-color);
-}
-
-ul[aria-labelledby="Precisodeajuda"] h3.tile__headline {
-  color: var(--ndd-text-color);
-}
-
-/* --- TILES HELP CATEGORY --- */
-
-/* --- TILES SECURITY CATEGORY --- */
-@media (min-width: 768px) {
-  ul[aria-labelledby="Segurançaecompliance"] > li.tile {
-    grid-column: span 3;
-  }
-}
-
-ul[aria-labelledby="Segurançaecompliance"] > li.tile--spacious {
-  align-items: center;
-  color: var(--ndd-text-color);
-}
-
-ul[aria-labelledby="Segurançaecompliance"] h3.tile__headline {
-  color: var(--ndd-text-color);
-}
-
-/* --- TILES SECURITY CATEGORY --- */
 
 /* ---------------------- TILES ---------------------- */
 
@@ -414,5 +346,36 @@ summary.expand-control {
   border-radius: var(--ndd-border-radius-tiny);
 }
 /* --- STATUS --- */
+
+/* --- LAYOUT WRAPPER --- */
+.columnLayout.fixed-width {
+  margin-top: 24px;
+}
+
+/* --- LAYOUT WRAPPER --- */
+
+/* --- MENU WITH LAYOUT --- */
+div.columnLayout.two-equal{
+  margin-bottom: 0!important;
+}
+
+div.two-equal >.cell.normal {
+  border: 1px solid #f3f3f4;
+  padding: 24px;
+  border-radius: var(--ndd-border-radius-small);
+  -webkit-transition: background-color 0.3s linear;
+  -ms-transition: background-color 0.3s linear;
+  transition: background-color .35s cubic-bezier(.165, .84, .44, 1);
+}
+
+div.two-equal > .cell.normal:hover {
+  background-color: var(--ndd-background-color);
+}
+
+div.two-equal > .cell.normal img{
+  box-shadow: none;
+}
+/* --- MENU WITH LAYOUT --- */
+
 
 /* ---------------------- CONTENT ---------------------- */
