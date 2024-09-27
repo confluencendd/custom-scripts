@@ -1,0 +1,22 @@
+.wrap-header-bar {
+  margin-bottom: 24px;
+  /* padding: 16px 0;
+  border-bottom: 1px solid var(--ndd-gray100-color);
+  border-top: 1px solid var(--ndd-gray100-color); */
+
+}
+
+.wrap-header-bar .time-to-read {
+  color: var(--ndd-gray110-color);
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.wrap-header-bar .time-to-read:before {
+  content: "\F293";
+  font-family: Bootstrap-icons;
+  font-size: 12px;
+  margin-right: 8px;
+  display: inline-block;
+}

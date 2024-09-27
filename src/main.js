@@ -10,7 +10,8 @@ import { translateCategories } from './js/translation/categories';
 import { translateHeaderLinks } from './js/translation/headerLinks';
 import { translatePlaceholderSearchBar } from './js/translation/placeholder';
 
-import { formatBreadcrumbs } from './js/utils/breadcrumbs';
+import { formatBreadcrumbs } from './js/components/bradcrumbs/breadcrumbs';
+import { createTimeToReadComponent } from './js/components/header-bar/headerBar';
 
 const languagePicked = getCurrentLanguage();
 const product = getCurrentProduct();
@@ -27,3 +28,6 @@ runFunctionByRoute(() => redirectLinks(product, languagePicked), '/');
 runFunctionByRoute(() => translatePlaceholderSearchBar(languagePicked));
 
 runFunctionByRoute(() => formatBreadcrumbs());
+
+runFunctionByRoute(() => createTimeToReadComponent())
+
