@@ -1,4 +1,5 @@
 /* IMPORTS */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 @import url("https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("nddorbix.css");
 
@@ -20,21 +21,20 @@
   --ndd-green10-color: #e5f5f2;
   --ndd-green100-color: #009e7e;
 
-  --ndd-gray100-color: #F0F0F0;
+  --ndd-gray100-color: #f0f0f0;
   --ndd-gray130-color: #888888;
 
-  --ndd-purple10-color: #EAE3FF;
+  --ndd-purple10-color: #eae3ff;
   --ndd-purple100-color: #480f7a;
 
   --ndd-dark-color: #222938;
   --ndd-dark-hover-color: #151c2b;
 
-  --ndd-background-color: #f0f0f0;
-
-  --ndd-border-radius-tiny: 4px;
-  --ndd-border-radius-small: 8px;
-  --ndd-border-radius-medium: 12px;
-  --ndd-border-radius-large: 16px;
+  --ndd-size-tyne: 4px;
+  --ndd-size-small: 8px;
+  --ndd-size-medium: 16px;
+  --ndd-size-large: 24px;
+  --ndd-size-xlarge: 48px;
 }
 
 /* ---------------------- ROOT ---------------------- */
@@ -46,19 +46,19 @@ header.header {
 }
 
 ul.render-links {
-  gap: 24px;
+  gap: var(--ndd-size-large);
 }
 
 li.render-links--link {
-  border-radius: var(--ndd-border-radius-small);
-  -webkit-transition: background-color 0.3s cubic-bezier(.165, .84, .44, 1);
-  -ms-transition: background-color 0.3s cubic-bezier(.165, .84, .44, 1);
-  transition: background-color 0.3s cubic-bezier(.165, .84, .44, 1);
+  border-radius: var(--ndd-size-small);
+  -webkit-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  -ms-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 li.render-links--link a {
-  font-size: 16px;
-  padding: 8px 12px;
+  font-size: var(--ndd-size-medium);
+  padding: var(--ndd-size-small) var(--ndd-size-medium);
   font-weight: 400;
 }
 
@@ -73,7 +73,7 @@ li.render-links--link a:hover {
 .vp-banner {
   background-position: bottom right;
   background-size: auto !important;
-  margin-bottom: 1rem;
+  margin-bottom: var(--ndd-size-medium);
   min-height: 350px;
 }
 
@@ -88,29 +88,29 @@ h1.vp-banner-text {
 .vp-search-bar__input-container,
 .vp-search-input,
 .vp-dropdown__button {
-  border-radius: var(--ndd-border-radius-medium);
-  -webkit-transition: background-color 0.3s cubic-bezier(.165, .84, .44, 1);
-  -ms-transition: background-color 0.3s cubic-bezier(.165, .84, .44, 1);
-  transition: background-color 0.3s cubic-bezier(.165, .84, .44, 1);
+  border-radius: var(--ndd-size-medium);
+  -webkit-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  -ms-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 .vp-dropdown--searchbar .vp-dropdown__button[aria-expanded="false"] {
-  background-color: var(--ndd-background-color);
+  background-color: var(--ndd-gray100-color);
   color: var(--ndd-text-color);
 }
 
 .vp-dropdown--searchbar .vp-dropdown__button[aria-expanded="true"] {
-  background-color: var(--ndd-background-color);
+  background-color: var(--ndd-gray100-color);
   color: var(--ndd-text-color);
 }
 
 .portal__header {
-  padding-bottom: 0rem;
-  padding-top: 0rem;
+  padding-bottom: 0;
+  padding-top: 0;
   display: flex;
   justify-content: center;
   align-items: start;
-  margin-top: 48px;
+  margin-top: var(--ndd-size-xlarge);
 }
 
 .portal__header__content {
@@ -118,7 +118,7 @@ h1.vp-banner-text {
 }
 
 [data-vp-component="search-bar"][data-vp-variant="large"] {
-  --height: 48px;
+  --height: var(--ndd-size-xlarge);
 }
 
 @media (max-width: 1366px) {
@@ -129,7 +129,7 @@ h1.vp-banner-text {
 
   .portal__header {
     align-items: start;
-    margin-top: 24px;
+    margin-top: var(--ndd-size-large);
   }
 
   .portal__header__content {
@@ -149,15 +149,16 @@ h1.vp-banner-text {
 /* ---------------------- MAIN ---------------------- */
 
 div.hc-main-wrapper {
-  background-color: var(--ndd-background-color);
+  background-color: var(--ndd-gray100-color);
 }
 
 main.vp-container-narrow {
   max-width: 1366px;
 }
 
-h1.vp-article__heading{
+h1.vp-article__heading {
   font-size: 40px;
+  font-weight: 600;
 }
 
 div.vp-article {
@@ -171,8 +172,8 @@ div.vp-article {
 }
 
 .vp-breadcrumbs .breadcrumbs-wrapper {
-  border-bottom: 1px solid var(--ndd-background-color);
-  padding-bottom: 8px;
+  border-bottom: 1px solid var(--ndd-gray100-color);
+  padding-bottom: var(--ndd-size-small);
 }
 
 /* ---------------------- MAIN ---------------------- */
@@ -181,17 +182,17 @@ div.vp-article {
 
 @media (max-width: 1366px) {
   ul.md\:gap-y-8 {
-    row-gap: 1rem;
-    column-gap: 1rem;
+    row-gap: var(--ndd-size-medium);
+    column-gap: var(--ndd-size-medium);
   }
 }
 
 li[data-vp-id="portal-space-tile"] {
   flex-direction: row;
-  border-radius: var(--ndd-border-radius-medium);
+  border-radius: var(--ndd-size-medium);
   padding: 20px 20px;
   font-size: 14px;
-  border: 1px solid var(--ndd-background-color);
+  border: 1px solid var(--ndd-gray100-color);
   align-items: start;
 }
 
@@ -212,7 +213,7 @@ p.tile__description {
 /* ---------------------- TILES ---------------------- */
 
 /* ---------------------- SEARCH PAGE ---------------------- */
-.vp-search-page{
+.vp-search-page {
   background-color: var(--ndd-white-color);
 }
 
@@ -239,30 +240,49 @@ p {
 /* --- TITLES --- */
 h1 {
   font-size: 32px;
+  font-family: "MuseoModerno", sans-serif;
 }
 
 h2 {
   font-size: 28px;
+  font-family: "MuseoModerno", sans-serif;
 }
 
 h3 {
   font-size: 26px;
+  font-family: "MuseoModerno", sans-serif;
+}
+.article__content h2,
+.article__content h3,
+.article__content h4,
+.article__content h5,
+.article__content h6 {
+  margin-top: var(--ndd-size-medium);
+}
+
+.article__content h4,
+.article__content h5,
+.article__content h6 {
+  margin-bottom: var(--ndd-size-small);
 }
 
 h4 {
   font-size: 20px;
+  font-family: "MuseoModerno", sans-serif;
 }
 h5 {
   font-size: 18px;
+  font-family: "MuseoModerno", sans-serif;
 }
 h6 {
-  font-size: 16px;
+  font-size: var(--ndd-size-medium);
+  font-family: "MuseoModerno", sans-serif;
 }
 /* --- TITLES --- */
 
 /* --- DIVIDER --- */
 hr {
-  margin: 2rem auto !important;
+  margin: calc(var(--ndd-size-medium)*2) auto !important;
 }
 /* --- DIVIDER --- */
 
@@ -275,7 +295,7 @@ hr {
 
 figure.vp-image img {
   border: none;
-  border-radius: var(--ndd-border-radius-tiny);
+  border-radius: var(--ndd-size-tyne);
   box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
     rgba(0, 0, 0, 0.15) 4.5px 4.5px 4.5px 0px;
 }
@@ -284,39 +304,39 @@ figure.vp-image img {
 
 /* --- PANELS --- */
 .panel-macro {
-  border-radius: var(--ndd-border-radius-tiny);
+  border-radius: var(--ndd-size-tyne);
   padding: 10px;
   overflow: auto;
 }
 
 .panel-macro--info {
   background-color: var(--ndd-blue10-color);
-  border-left: var(--ndd-border-radius-small) solid var(--ndd-blue100-color);
+  border-left: var(--ndd-size-small) solid var(--ndd-blue100-color);
 }
 
 .panel-macro--panel-note-adf {
   background-color: var(--ndd-purple10-color);
-  border-left: var(--ndd-border-radius-small) solid var(--ndd-purple100-color);
+  border-left: var(--ndd-size-small) solid var(--ndd-purple100-color);
 }
 
 .panel-macro--tip {
   background-color: var(--ndd-green10-color);
-  border-left: var(--ndd-border-radius-small) solid var(--ndd-green100-color);
+  border-left: var(--ndd-size-small) solid var(--ndd-green100-color);
 }
 
 .panel-macro--note {
   background-color: var(--ndd-yellow10-color);
-  border-left: var(--ndd-border-radius-small) solid var(--ndd-yellow100-color);
+  border-left: var(--ndd-size-small) solid var(--ndd-yellow100-color);
 }
 
 .panel-macro--warning {
   background-color: var(--ndd-red10-color);
-  border-left: var(--ndd-border-radius-small) solid var(--ndd-red100-color);
+  border-left: var(--ndd-size-small) solid var(--ndd-red100-color);
 }
 
 .panel-macro--panel {
   background-color: var(--ndd-gray100-color);
-  border-left: var(--ndd-border-radius-small) solid var(--ndd-gray130-color);
+  border-left: var(--ndd-size-small) solid var(--ndd-gray130-color);
 }
 
 .panel-macro p:not(:first-child) {
@@ -332,7 +352,7 @@ figure.vp-image img {
 
 /* --- EXPAND --- */
 .expand-container {
-  border-radius: var(--ndd-border-radius-tiny);
+  border-radius: var(--ndd-size-tyne);
 }
 
 summary.expand-control {
@@ -343,7 +363,7 @@ summary.expand-control {
 
 /* --- STATUS --- */
 .aui-lozenge {
-  border-radius: var(--ndd-border-radius-tiny);
+  border-radius: var(--ndd-size-tyne);
 }
 /* --- STATUS --- */
 
@@ -355,27 +375,37 @@ summary.expand-control {
 /* --- LAYOUT WRAPPER --- */
 
 /* --- MENU WITH LAYOUT --- */
-div.columnLayout.two-equal{
-  margin-bottom: 0!important;
+div.columnLayout.two-equal {
+  margin-bottom: 0 !important;
 }
 
-div.two-equal >.cell.normal {
-  border: 1px solid #f3f3f4;
+div.two-equal > .cell.normal {
+  border: 1px solid var(--ndd-gray100-color);
   padding: 24px;
-  border-radius: var(--ndd-border-radius-small);
+  border-radius: var(--ndd-size-small);
   -webkit-transition: background-color 0.3s linear;
   -ms-transition: background-color 0.3s linear;
-  transition: background-color .35s cubic-bezier(.165, .84, .44, 1);
+  transition: background-color 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 div.two-equal > .cell.normal:hover {
-  background-color: var(--ndd-background-color);
+  background-color: var(--ndd-gray100-color);
 }
 
-div.two-equal > .cell.normal img{
+div.two-equal > .cell.normal img {
+  max-width: 48px;
   box-shadow: none;
 }
 /* --- MENU WITH LAYOUT --- */
 
+/* --- LINKS SECURITY RELEASER PAGE --- */
+.vp-article__content a:not(:first-child)::before {
+  font-family: "Bootstrap-icons";
+  content: "\F38B";
+  display: inline-block;
+  font-size: 18px;
+  margin-right: var(--ndd-size-small);
+}
+/* --- LINKS SECURITY RELEASER PAGE --- */
 
 /* ---------------------- CONTENT ---------------------- */

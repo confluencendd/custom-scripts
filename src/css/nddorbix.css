@@ -2,8 +2,9 @@
 
 /* ---------------------- ROOT ---------------------- */
 :root {
-  --ndd-orbix-primary-color: #4f0d9e;
-  --ndd-orbix-hover-color: #3f0981;
+  --ndd-orbix-primary-color: #4b1159;
+  --ndd-orbix-secondary-color: #9622b2;
+  --ndd-orbix-third-color: #ebd4f0;
 }
 
 /* ---------------------- ROOT ---------------------- */
@@ -17,9 +18,9 @@ li.render-links--link:nth-child(1) {
 
 li.render-links--link:nth-child(1):hover {
   background-color: var(--ndd-dark-hover-color);
-  -webkit-transition: background-color 0.3s cubic-bezier(.165, .84, .44, 1);
-  -ms-transition: background-color 0.3s cubic-bezier(.165, .84, .44, 1);
-  transition: background-color 0.3s cubic-bezier(.165, .84, .44, 1);
+  -webkit-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  -ms-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 /* --- SECOND LINK --- */
@@ -27,10 +28,10 @@ li.render-links--link:nth-child(2) {
   background-color: var(--ndd-orbix-primary-color);
 }
 li.render-links--link:nth-child(2):hover {
-  background-color: var(--ndd-orbix-hover-color);
-  -webkit-transition: background-color 0.3s cubic-bezier(.165, .84, .44, 1);
-  -ms-transition: background-color 0.3s cubic-bezier(.165, .84, .44, 1);
-  transition: background-color 0.3s cubic-bezier(.165, .84, .44, 1);
+  background-color: var(--ndd-orbix-secondary-color);
+  -webkit-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  -ms-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 /* ---------------------- HEADER ---------------------- */
@@ -40,7 +41,7 @@ li.render-links--link:nth-child(2):hover {
 h3.tile__headline {
   font-size: 18px;
   text-align: left;
-  color: var(--ndd-orbix-primary-color);
+  color: var(--ndd-orbix-secondary-color);
 }
 
 /* --- TILES HELP CATEGORY --- */
@@ -85,7 +86,8 @@ ul[aria-labelledby="Segurançaecompliance"] h3.tile__headline {
 /* ---------------------- CONTENT ---------------------- */
 
 strong > span[data-colorid] {
-  color: var(--ndd-orbix-hover-color);
+  color: var(--ndd-orbix-secondary-color);
 }
+
 
 /* ---------------------- CONTENT ---------------------- */
