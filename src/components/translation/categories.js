@@ -1,4 +1,4 @@
-import categoriesResources from '../resources/categoriesResources.json'
+import categoriesResources from '../../js/resources/categoriesResources.json'
 
 export function translateCategories(product, lang) {
     const categories = document.querySelectorAll(".portal__content__heading h2");

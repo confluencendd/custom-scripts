@@ -1,4 +1,4 @@
-import placeholderResources from '../resources/placeholderResources.json'
+import placeholderResources from '../../js/resources/placeholderResources.json'
 
 export function translatePlaceholderSearchBar(lang) {
     const searchInput = document.querySelector('input.vp-search-input__input');

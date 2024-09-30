@@ -1,4 +1,4 @@
-import headerLinksResources from '../resources/headerLinksResources.json'
+import headerLinksResources from '../../js/resources/headerLinksResources.json'
 
 export function translateHeaderLinks(product, lang) {
     const links = document.querySelectorAll("li.render-links--link a");

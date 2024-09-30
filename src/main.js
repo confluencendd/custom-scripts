@@ -5,13 +5,13 @@ import { getCurrentProduct } from './js/utils/getProduct';
 import { runFunctionByRoute } from './js/utils/route'
 import { redirectLinks } from './js/utils/redirect'
 
-import { translateTiles } from './js/translation/tiles';
-import { translateCategories } from './js/translation/categories';
-import { translateHeaderLinks } from './js/translation/headerLinks';
-import { translatePlaceholderSearchBar } from './js/translation/placeholder';
+import { translateTiles } from './components/translation/tiles';
+import { translateCategories } from './components/translation/categories';
+import { translateHeaderLinks } from './components/translation/headerLinks';
+import { translatePlaceholderSearchBar } from './components/translation/placeholder';
 
-import { formatBreadcrumbs } from './js/components/bradcrumbs/breadcrumbs';
-import { createTimeToReadComponent } from './js/components/header-bar/headerBar';
+import { formatBreadcrumbs } from './js/utils/breadcrumbs';
+import { createTimeToReadComponent } from './components/header-bar/headerBar';
 
 const languagePicked = getCurrentLanguage();
 const product = getCurrentProduct();
@@ -29,5 +29,5 @@ runFunctionByRoute(() => translatePlaceholderSearchBar(languagePicked));
 
 runFunctionByRoute(() => formatBreadcrumbs());
 
-runFunctionByRoute(() => createTimeToReadComponent())
+runFunctionByRoute(() => createTimeToReadComponent(languagePicked))
 
