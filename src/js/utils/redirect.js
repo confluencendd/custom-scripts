@@ -1,4 +1,4 @@
-import linksDocumentsMapResources from '../resources/linksDocumentsMapResources.json'
+import linksDocumentsMapResources from '../../resources/linksDocumentsMapResources.json'
 
 export function redirectLinks(product, lang) {
 

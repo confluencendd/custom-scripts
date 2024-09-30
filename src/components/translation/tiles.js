@@ -1,4 +1,4 @@
-import tilesResources from '../../js/resources/tilesResources.json'
+import tilesResources from '../../resources/tilesResources.json'
 
 export function translateTiles(product, lang) {
     const tiles = document.querySelectorAll('[data-vp-id="portal-space-tile"]');    
