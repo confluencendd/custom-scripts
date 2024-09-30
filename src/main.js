@@ -11,7 +11,7 @@ import { translateHeaderLinks } from './components/translation/headerLinks';
 import { translatePlaceholderSearchBar } from './components/translation/placeholder';
 
 import { formatBreadcrumbs } from './js/utils/breadcrumbs';
-import { createTimeToReadComponent } from './components/header-bar/headerBar';
+import { createTimeToReadComponent } from './components/header-bar/header-bar';
 
 const languagePicked = getCurrentLanguage();
 const product = getCurrentProduct();

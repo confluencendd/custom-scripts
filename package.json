@@ -6,7 +6,9 @@
   "scripts": {
     "serve": "parcel serve",
     "dev": "parcel watch",
-    "prod": "parcel build"
+    "build": "parcel build --no-source-maps --no-cache",
+    "log": "parcel build --log-level verbose",
+    "minify": "terser src/main.js -o dist/ndd-app.min.js"
   },
   "author": "",
   "license": "ISC",

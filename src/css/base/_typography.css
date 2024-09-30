@@ -1,0 +1,83 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url("https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap");
+
+p {
+  line-height: 28px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: var(--ndd-text-color);
+}
+
+/* --- TITLES --- */
+
+h1 {
+  font-size: 32px;
+  font-family: var(--ndd-primary-font);
+}
+
+h2 {
+  font-size: 28px;
+  font-family: var(--ndd-primary-font);
+}
+
+h3 {
+  font-size: 26px;
+  font-family: var(--ndd-primary-font);
+}
+.article__content h2,
+.article__content h3,
+.article__content h4,
+.article__content h5,
+.article__content h6 {
+  margin-top: var(--ndd-size-medium);
+}
+
+.article__content h4,
+.article__content h5,
+.article__content h6 {
+  margin-bottom: var(--ndd-size-small);
+}
+
+h4 {
+  font-size: 20px;
+  font-family: var(--ndd-primary-font);
+}
+h5 {
+  font-size: 18px;
+  font-family: var(--ndd-primary-font);
+}
+h6 {
+  font-size: var(--ndd-size-medium);
+  font-family: var(--ndd-primary-font);
+}
+
+h1.vp-article__heading {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+/* --- LINKS --- */
+
+.vp-article__content a {
+  color: var(--ndd-links-color);
+}
+
+/* --- LINKS SECURITY RELEASER PAGE --- */
+.vp-article__content a:not(:first-child)::before {
+  font-family: "Bootstrap-icons";
+  content: "\F38B";
+  display: inline-block;
+  font-size: 18px;
+  margin-right: var(--ndd-size-small);
+  background-color: var(--ndd-blue10-color);
+  padding: 4px 8px;
+  border-radius: 8px;
+}

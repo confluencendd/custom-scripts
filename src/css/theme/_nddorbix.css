@@ -1,16 +1,3 @@
-/* IMPORTS */
-
-/* ---------------------- ROOT ---------------------- */
-:root {
-  --ndd-orbix-primary-color: #4b1159;
-  --ndd-orbix-secondary-color: #9622b2;
-  --ndd-orbix-third-color: #ebd4f0;
-}
-
-/* ---------------------- ROOT ---------------------- */
-
-/* ---------------------- HEADER ---------------------- */
-
 /* --- FIRST LINK --- */
 li.render-links--link:nth-child(1) {
   background-color: var(--ndd-dark-color);
@@ -39,8 +26,6 @@ li.render-links--link:nth-child(2):hover {
 /* ---------------------- TILES ---------------------- */
 
 h3.tile__headline {
-  font-size: 18px;
-  text-align: left;
   color: var(--ndd-orbix-secondary-color);
 }
 
