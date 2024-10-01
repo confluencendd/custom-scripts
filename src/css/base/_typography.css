@@ -71,7 +71,7 @@ h1.vp-article__heading {
   color: var(--ndd-links-color);
 }
 
-/* --- LINKS SECURITY RELEASER PAGE --- */
+/* --- LINKS SECURITY RELEASE PAGE --- */
 .vp-article__content h4 a:not(:first-child)::before {
   font-family: "Bootstrap-icons";
   content: "\F38B";

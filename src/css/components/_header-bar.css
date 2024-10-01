@@ -17,7 +17,7 @@
 .wrap-header-bar .time-to-read:before {
   content: "\F293";
   font-family: Bootstrap-icons;
-  font-size: 12px;
+  font-size: 11px;
   margin-right: 8px;
   display: inline-block;
 }
