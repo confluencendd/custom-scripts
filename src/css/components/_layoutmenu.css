@@ -17,6 +17,6 @@ div.two-equal > .cell.normal:hover {
 }
 
 div.two-equal > .cell.normal img {
-  max-width: 48px;
+  max-width: var(--ndd-size-xlarge);
   box-shadow: none;
 }

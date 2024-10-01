@@ -71,7 +71,7 @@ h1.vp-article__heading {
 }
 
 /* --- LINKS SECURITY RELEASER PAGE --- */
-.vp-article__content a:not(:first-child)::before {
+.vp-article__content h4 a:not(:first-child)::before {
   font-family: "Bootstrap-icons";
   content: "\F38B";
   display: inline-block;

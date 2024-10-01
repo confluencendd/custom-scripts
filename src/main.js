@@ -1,4 +1,4 @@
-import * as styles from '../src/css/main.css';
+//import * as styles from '../src/css/main.css';
 
 import { getCurrentLanguage } from './js/utils/getLanguage'
 import { getCurrentProduct } from './js/utils/getProduct';
@@ -30,4 +30,10 @@ runFunctionByRoute(() => translatePlaceholderSearchBar(languagePicked));
 runFunctionByRoute(() => formatBreadcrumbs());
 
 runFunctionByRoute(() => createTimeToReadComponent(languagePicked))
+
+//window.scrollHelpCenter.collection.members[0].name = "teste";
+console.log(window.scrollHelpCenter.collection.members[0])
+
+
+
 
