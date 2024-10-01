@@ -31,9 +31,6 @@ runFunctionByRoute(() => formatBreadcrumbs());
 
 runFunctionByRoute(() => createTimeToReadComponent(languagePicked))
 
-//window.scrollHelpCenter.collection.members[0].name = "teste";
-console.log(window.scrollHelpCenter.collection.members[0])
-
 
 
 
