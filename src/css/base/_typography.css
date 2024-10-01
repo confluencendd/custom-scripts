@@ -11,7 +11,8 @@ h3,
 h4,
 h5,
 h6,
-p {
+p,
+.panel-macro__content > * {
   color: var(--ndd-text-color);
 }
 
