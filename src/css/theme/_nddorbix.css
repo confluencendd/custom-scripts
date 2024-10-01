@@ -1,3 +1,10 @@
+:root {
+  --ndd-orbix-primary-color: #4b1159;
+  --ndd-orbix-secondary-color: #9622b2;
+  --ndd-orbix-third-color: #ebd4f0;
+}
+
+
 /* --- FIRST LINK --- */
 li.render-links--link:nth-child(1) {
   background-color: var(--ndd-dark-color);
