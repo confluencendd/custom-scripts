@@ -32,19 +32,6 @@ h3 {
   font-size: 26px;
   font-family: var(--ndd-primary-font);
 }
-.article__content h2,
-.article__content h3,
-.article__content h4,
-.article__content h5,
-.article__content h6 {
-  margin-top: var(--ndd-size-medium);
-}
-
-.article__content h4,
-.article__content h5,
-.article__content h6 {
-  margin-bottom: var(--ndd-size-small);
-}
 
 h4 {
   font-size: 20px;
@@ -65,6 +52,20 @@ h1.vp-article__heading {
   margin-bottom: 0;
 }
 
+.article__content h2,
+.article__content h3,
+.article__content h4,
+.article__content h5,
+.article__content h6 {
+  margin-top: var(--ndd-size-medium);
+}
+
+.article__content h4,
+.article__content h5,
+.article__content h6 {
+  margin-bottom: var(--ndd-size-small);
+}
+
 /* --- LINKS --- */
 
 .vp-article__content a {
@@ -72,7 +73,7 @@ h1.vp-article__heading {
 }
 
 /* --- LINKS SECURITY RELEASE PAGE --- */
-.vp-article__content h4 a:not(:first-child)::before {
+.vp-article__content h4 a:last-child::before {
   font-family: "Bootstrap-icons";
   content: "\F38B";
   display: inline-block;
