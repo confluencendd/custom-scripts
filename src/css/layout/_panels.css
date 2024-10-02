@@ -1,5 +1,7 @@
 .panel-macro {
   border-radius: var(--ndd-size-tyne);
+  margin-top: var(--ndd-size-small);
+  margin-bottom: var(--ndd-size-small);
   padding: 10px;
   overflow: auto;
 }
