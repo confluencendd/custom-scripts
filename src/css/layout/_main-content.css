@@ -21,8 +21,3 @@ div.vp-article {
 hr {
   margin: calc(var(--ndd-size-medium) * 2) auto !important;
 }
-
-/* --- STATUS --- */
-.aui-lozenge {
-  border-radius: var(--ndd-size-tyne);
-}

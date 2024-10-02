@@ -5,7 +5,7 @@
     "nddorbix-build": "parcel build src/nddorbix/app-hc-nddorbix.js --dist-dir dist/nddorbix --no-source-maps --no-cache",
     "nddorbix-dev": "parcel watch src/nddorbix/app-hc-nddorbix.js --dist-dir dist/nddorbix",
     "nddvalidacao-build": "parcel build src/validacao/app-hc-nddvalidacao.js --dist-dir dist/nddvalidacao --no-source-maps --no-cache",
-    "nddvalidacao-dev": "parcel build src/validacao/app-hc-nddvalidacao.js --dist-dir dist/nddvalidacao --no-source-maps --no-cache"
+    "nddvalidacao-dev": "parcel watch src/validacao/app-hc-nddvalidacao.js --dist-dir dist/nddvalidacao"
   },
   "author": "",
   "license": "ISC",
