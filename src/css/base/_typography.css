@@ -68,7 +68,7 @@ h1.vp-article__heading {
 
 /* --- LINKS --- */
 
-.vp-article__content a {
+.vp-article__content a:not(.vp-accordion-link-group a) {
   color: var(--ndd-links-color);
 }
 

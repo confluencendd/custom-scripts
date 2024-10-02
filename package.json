@@ -1,14 +1,12 @@
 {
   "name": "custom-scripts",
   "version": "1.0.0",
-  "source": "src/main.js",
-  "module": "dist/ndd-app.js",
-  "scripts": {
-    "serve": "parcel serve",
+    "scripts": {
     "dev": "parcel watch",
-    "build": "parcel build --no-source-maps --no-cache",
+    "main": "parcel build --no-source-maps --no-cache",
     "log": "parcel build --log-level verbose",
-    "minify": "terser src/main.js -o dist/ndd-app.min.js"
+    "nddorbix": "parcel build src/nddorbix/app-hc-nddorbix.js --dist-dir dist/nddorbix --no-source-maps --no-cache",
+    "nddvalidacao": "parcel build src/validacao/app-hc-nddvalidacao.js --dist-dir dist/nddvalidacao --no-source-maps --no-cache"
   },
   "author": "",
   "license": "ISC",
