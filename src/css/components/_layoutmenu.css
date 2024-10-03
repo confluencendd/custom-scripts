@@ -15,7 +15,7 @@ div.three-equal > .cell.normal {
 }
 
 div.two-equal > .cell.normal:hover,
-div.three-equal > .cell.normal:hover{
+div.three-equal > .cell.normal:hover {
   background-color: var(--ndd-gray90-color);
 }
 
@@ -23,4 +23,10 @@ div.two-equal > .cell.normal img,
 div.three-equal > .cell.normal img {
   max-width: var(--ndd-size-xlarge);
   box-shadow: none;
+}
+
+div.two-equal > .cell.normal figure.vp-image.image-center,
+div.three-equal > .cell.normal figure.vp-image.image-center {
+  justify-content: center;
+  display: flex;
 }

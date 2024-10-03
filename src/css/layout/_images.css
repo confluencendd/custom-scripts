@@ -4,8 +4,3 @@ figure.vp-image img {
   box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
     rgba(0, 0, 0, 0.15) 4.5px 4.5px 4.5px 0px;
 }
-
-figure.vp-image.image-center {
-  display: flex;
-  justify-content: center;
-}
