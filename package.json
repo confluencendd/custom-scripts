@@ -2,9 +2,9 @@
   "name": "custom-scripts",
   "version": "1.0.0",
     "scripts": {
-    "nddorbix-build": "parcel build src/nddorbix/app-hc-nddorbix.js --dist-dir public/nddorbix --no-source-maps --no-cache",
+    "nddorbix-build": "parcel build src/nddorbix/app-hc-nddorbix.js --dist-dir public/ --no-source-maps --no-cache",
     "nddorbix-dev": "parcel watch src/nddorbix/app-hc-nddorbix.js --dist-dir dev/nddorbix",
-    "nddvalidacao-build": "parcel build src/validacao/app-hc-nddvalidacao.js --dist-dir public/nddvalidacao --no-source-maps --no-cache",
+    "nddvalidacao-build": "parcel build src/validacao/app-hc-nddvalidacao.js --dist-dir public/ --no-source-maps --no-cache",
     "nddvalidacao-dev": "parcel watch src/validacao/app-hc-nddvalidacao.js --dist-dir dev/nddvalidacao"
   },
   "author": "",
