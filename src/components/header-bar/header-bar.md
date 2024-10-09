@@ -1,10 +1,13 @@
-# Função: `createTimeToReadComponent(lang)`
+# Este componente permique que possamos criar elementos no Header Bar de cada página do Help Center
+
+## Função: `createTimeToReadComponent(lang)`
 
 Esta função cria um componente que exibe o tempo estimado de leitura do conteúdo principal da página, traduzido para o idioma especificado.
 
 ## Importação:
-
-Não há necessidade de importação, pois a função é autônoma.
+```javascript
+import { createTimeToReadComponent } from '../components/header-bar/header-bar';
+```
 
 ## Parâmetro:
 - `lang` (String): Código de idioma para o qual a mensagem de tempo estimado será traduzida (por exemplo, `'en'` para inglês, `'pt'` para português, `'es'` para espanhol).
@@ -17,8 +20,8 @@ A função começa verificando se o componente já existe na página:
 if (document.querySelector('.time-to-read')) {
     console.warn('Time to read already exists on this page.');
     return;
-```
 }
+```
 
 Se o componente já estiver presente, a função emite um aviso e não faz nada.
 
@@ -56,7 +59,6 @@ Caso a tradução não esteja disponível, um aviso é emitido:
 
 ```javascriptif (!translations[lang]) {
     console.warn(`WARNING: Translation for ${lang.toUpperCase()} is not available.`);
-}
 ```
 ### Exibição do componente:
 O `span` é adicionado ao `div`, e o componente é exibido na página chamando a função `showHeaderBarComponent`:
@@ -64,6 +66,7 @@ O `span` é adicionado ao `div`, e o componente é exibido na página chamando a
 divTimeToRead.appendChild(spanTimeToRead);
 showHeaderBarComponent(divTimeToRead);
 ```
+
 ## Função: `readTime(elementId, wordsPerMinute = 200)`
 
 Esta função calcula o tempo estimado de leitura com base na contagem de palavras no elemento especificado.
