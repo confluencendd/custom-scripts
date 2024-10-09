@@ -11,44 +11,44 @@ A pasta src (source) contém toda estrutura com outras pastas e arquivos para o 
 #### 1. **COMPONENTS**
 Esta pasta contém os scripts JS que criam os componentes para o Help Center.
 
-```text
-  Ex.: header-bar/header-bar.js - Este componente realiza a criação de elementos dentro do elemento header do Help Center. Até o momento, temos apenas o timeToRead() criado.
-```
+
+  **Ex.:** header-bar/header-bar.js - Este componente realiza a criação de elementos dentro do elemento header do Help Center. Até o momento, temos apenas o timeToRead() criado.
+
 
 #### 2. **CSS**
 Esta pasta contém os arquivos para modificações visuais, sendo eles:
   - **base** - Aqui você tem acesso aos arquivos que são usados em todos os temas.
-```text
-  Ex.: _base.css - Este arquivo possuí uma série de variáveis com estilos padronizados pelo NDS da ndd, como cores e espaçamentos.
-```
+
+  **Ex.:** _base.css - Este arquivo possuí uma série de variáveis com estilos padronizados pelo NDS da ndd, como cores e espaçamentos.
+
   - **componentes** - Aqui você encontrará todos os arquivos `.css` dos componentes criados para o Help Center.
-```text 
-  Ex.: _header-bar.css - componente responsável por criar um elementos dentro do Header de cada página.
-```
+ 
+  **Ex.:** _header-bar.css - componente responsável por criar um elementos dentro do Header de cada página.
+
   - layout - Aqui você terá acesso a todos os arquivos `.css` que alteram o estilo dos elementos que o Help Center possuí.
-```text
-  Ex.: _banner.css - Arquivo responsável por conter todas as estilizações do elemento header do Help Center.
-```
+
+  **Ex.:** _banner.css - Arquivo responsável por conter todas as estilizações do elemento header do Help Center.
+
   - theme - Esta é a nossa pasta principal, pois ela contém o arquivo central que fará a importação de cada um dos estilos que deseja para o tema.
-```text
-  Ex.:_nddorbix.css - Este aquivo contém todas as importações dos estilos que deseja aplicar. Além das modificações específicas para o Help Center do NDD Orbix. 
-```
+
+  **Ex.:**_nddorbix.css - Este aquivo contém todas as importações dos estilos que deseja aplicar. Além das modificações específicas para o Help Center do NDD Orbix. 
+
 #### 3. **JS**
 Esta pasta contém os arquivos para modificações de comportamento, além de podermos desenvolver novas funcionalidades para o Help Center:
 - utils: Nesta pasta você irá encontrar funções que podem ser usadas em comum por todos Help Center, ajudam a resolver pequenos problemas, afim de separar as responsabilidades.
-```text
-Ex.: getProduct: Esta função retorna o nome do produto, ela é usada, por exemplo, para saber quais são as traduções que devemos carregar para o Help Center.
-```
+
+**Ex.:** getProduct: Esta função retorna o nome do produto, ela é usada, por exemplo, para saber quais são as traduções que devemos carregar para o Help Center.
+
 - pasta com o nome do produto - Esta pasta contém noss arquivo central, que realiza a chamada de todas as funções que devemos carregar para o Help Center.
 
-```text
-Ex.: app-hc-nddorbix.js - Este arquivo carrega todas as funções para que o Help Center do NDD Orbix possa realizar as suas funções. Uma delas, a tradução dos 'tiles' documentos publicados no Help Center.
-```
+
+**Ex.:** app-hc-nddorbix.js - Este arquivo carrega todas as funções para que o Help Center do NDD Orbix possa realizar as suas funções. Uma delas, a tradução dos 'tiles' documentos publicados no Help Center.
+
 - resources - Esta pasta contém os arquivos `.json` com as traduções para cada contexto do Help Center.
 
-```text
-Ex.: categoriesResources.json - Este arquivo contém todas as traduções para os Help Centers das categorias criadas, por exemplo "Segurança e compliance".
-```
+
+**Ex.:** categoriesResources.json - Este arquivo contém todas as traduções para os Help Centers das categorias criadas, por exemplo "Segurança e compliance".
+
 
 ## Requisitos
 Para começar o desenvolvimento, certifique-se de que você tenha os seguintes requisitos instalados no seu ambiente de trabalho:
@@ -94,12 +94,18 @@ Após realizar as alterações que você precisa no código, execute os comandos
 ### Geração para Desenvolvimento (Dev)
 Para testar localmente, utilize o comando a seguir para gerar os arquivos de desenvolvimento de cada Help Center (HC).
 
-- HC Validação: `npm run nddvalidacao-dev`
-
-- HC NDD Orbix: `npm run nddorbix-dev`
-
-- Todos os Help Centers: `npm run all-hc-dev`
-
+- HC Validação:
+```bash
+npm run nddvalidacao-dev
+```
+- HC NDD Orbix: 
+```bash
+npm run nddorbix-dev
+```
+- Todos os Help Centers:
+```bash
+npm run all-hc-dev
+```
 ### Testar
 Antes de gerar a build e unificar as alterações, é importante testar os arquivos gerados para garantir que tudo esteja funcionando corretamente.
 
@@ -115,11 +121,20 @@ Faça qualquer ajuste necessário no código e repita o processo de geração do
 ### Geração para Produção (Build)
 Quando estiver pronto para publicar as alterações, rode os comandos a seguir para gerar os arquivos de produção.
 
-- HC Validação: `npm run nddvalidacao-build`
+- HC Validação:
+```bash
+  npm run nddvalidacao-build
+```
 
-- HC NDD Orbix: `npm run nddorbix-build`
+- HC NDD Orbix:
+```bash
+npm run nddorbix-build
+```
 
-- Todos os Help Centers: `npm run all-hc-build`
+- Todos os Help Centers:
+```bash
+npm run all-hc-build
+```
 
 ### Unificar as Alterações na Branch Current
 Após testar e verificar que as mudanças estão corretas, você pode unificar as alterações feitas na branch Test com a branch Current. Para isso, faça um merge dos commits realizados, utilizando os comandos abaixo:
