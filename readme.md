@@ -50,6 +50,7 @@ Para começar o desenvolvimento, certifique-se de que você tenha os seguintes r
 
 - **Visual Studio Code:** Editor de código recomendado para abrir e editar o projeto.
 - **Node.js:** Plataforma para execução de scripts em JavaScript, que inclui o gerenciador de pacotes npm.
+- **Git:** Sistema de controle de versões.
 ___
   
 ## Clonando o Repositório
