@@ -5,56 +5,52 @@ O **custom-script** permique que, tanto o visual, quanto o comportamento do Help
 Aqui você irá aprender a Clonar e Publicar o custom-script para o Help Center :)
 
 ## Estrutura do projeto
-### SRC
-A pasta src (source) contém toda estrutura com outras pastas e arquivos para o desenvolvimento da aplicação.
 
-#### 1. **COMPONENTS**
+A pasta `src` (source) contém toda estrutura com outras pastas e arquivos para o desenvolvimento da aplicação.
+
+### 1. **components**
 Esta pasta contém os scripts JS que criam os componentes para o Help Center.
 
+**Exemplo:** header-bar/header-bar.js - Este componente realiza a criação de elementos dentro do elemento header do Help Center. Até o momento, temos apenas o timeToRead() criado.
 
-  **Ex.:** header-bar/header-bar.js - Este componente realiza a criação de elementos dentro do elemento header do Help Center. Até o momento, temos apenas o timeToRead() criado.
 
-
-#### 2. **CSS**
+### 2. **css**
 Esta pasta contém os arquivos para modificações visuais, sendo eles:
   - **base** - Aqui você tem acesso aos arquivos que são usados em todos os temas.
-
-  **Ex.:** _base.css - Este arquivo possuí uma série de variáveis com estilos padronizados pelo NDS da ndd, como cores e espaçamentos.
+**Exemplo:** _base.css - Este arquivo possuí uma série de variáveis com estilos padronizados pelo NDS da ndd, como cores e espaçamentos.
 
   - **componentes** - Aqui você encontrará todos os arquivos `.css` dos componentes criados para o Help Center.
- 
-  **Ex.:** _header-bar.css - componente responsável por criar um elementos dentro do Header de cada página.
+**Exemplo:** _header-bar.css - componente responsável por criar um elementos dentro do Header de cada página.
 
-  - layout - Aqui você terá acesso a todos os arquivos `.css` que alteram o estilo dos elementos que o Help Center possuí.
+  - **layout** - Aqui você terá acesso a todos os arquivos `.css` que alteram o estilo dos elementos que o Help Center possuí.
+**Exemplo:** _banner.css - Arquivo responsável por conter todas as estilizações do elemento header do Help Center.
 
-  **Ex.:** _banner.css - Arquivo responsável por conter todas as estilizações do elemento header do Help Center.
+  - **theme** - Esta é a nossa pasta principal, pois ela contém o arquivo central que fará a importação de cada um dos estilos que deseja para o tema.
 
-  - theme - Esta é a nossa pasta principal, pois ela contém o arquivo central que fará a importação de cada um dos estilos que deseja para o tema.
+**Exemplo:**_nddorbix.css - Este aquivo contém todas as importações dos estilos que deseja aplicar. Além das modificações específicas para o Help Center do NDD Orbix. 
 
-  **Ex.:**_nddorbix.css - Este aquivo contém todas as importações dos estilos que deseja aplicar. Além das modificações específicas para o Help Center do NDD Orbix. 
-
-#### 3. **JS**
+### 3. **JS**
 Esta pasta contém os arquivos para modificações de comportamento, além de podermos desenvolver novas funcionalidades para o Help Center:
-- utils: Nesta pasta você irá encontrar funções que podem ser usadas em comum por todos Help Center, ajudam a resolver pequenos problemas, afim de separar as responsabilidades.
+- **utils** - Nesta pasta você irá encontrar funções que podem ser usadas em comum por todos Help Center, ajudam a resolver pequenos problemas, afim de separar as responsabilidades.
 
-**Ex.:** getProduct: Esta função retorna o nome do produto, ela é usada, por exemplo, para saber quais são as traduções que devemos carregar para o Help Center.
+**Exemplo:** getProduct: Esta função retorna o nome do produto, ela é usada, por exemplo, para saber quais são as traduções que devemos carregar para o Help Center.
 
-- pasta com o nome do produto - Esta pasta contém noss arquivo central, que realiza a chamada de todas as funções que devemos carregar para o Help Center.
+- **pasta com o nome do produto** - Esta pasta contém noss arquivo central, que realiza a chamada de todas as funções que devemos carregar para o Help Center.
 
+**Exemplo:** app-hc-nddorbix.js - Este arquivo carrega todas as funções para que o Help Center do NDD Orbix possa realizar as suas funções. Uma delas, a tradução dos 'tiles' documentos publicados no Help Center.
 
-**Ex.:** app-hc-nddorbix.js - Este arquivo carrega todas as funções para que o Help Center do NDD Orbix possa realizar as suas funções. Uma delas, a tradução dos 'tiles' documentos publicados no Help Center.
+- **resources** - Esta pasta contém os arquivos `.json` com as traduções para cada contexto do Help Center.
 
-- resources - Esta pasta contém os arquivos `.json` com as traduções para cada contexto do Help Center.
+**Exemplo:** categoriesResources.json - Este arquivo contém todas as traduções para os Help Centers das categorias criadas, por exemplo "Segurança e compliance".
 
-
-**Ex.:** categoriesResources.json - Este arquivo contém todas as traduções para os Help Centers das categorias criadas, por exemplo "Segurança e compliance".
-
+___
 
 ## Requisitos
 Para começar o desenvolvimento, certifique-se de que você tenha os seguintes requisitos instalados no seu ambiente de trabalho:
 
 - **Visual Studio Code:** Editor de código recomendado para abrir e editar o projeto.
 - **Node.js:** Plataforma para execução de scripts em JavaScript, que inclui o gerenciador de pacotes npm.
+___
   
 ## Clonando o Repositório
 Primeiro, você precisa clonar o repositório onde estão os arquivos do projeto. Utilize o comando abaixo para clonar o repositório localmente no seu computador:
@@ -68,7 +64,6 @@ git clone https://github.com/confluencendd/custom-scripts.git
 ```bash
 git fetch
 ```
-___
 
 ## Selecionar a Branch Test
 Certifique-se de que você está na branch correta para desenvolvimento. Utilize o comando abaixo para selecionar a branch Test:
