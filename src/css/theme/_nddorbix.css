@@ -28,7 +28,7 @@
   --ndd-orbix-third-color: #ebd4f0;
 }
 
-/* --- FIRST LINK --- */
+/* --- FIRST LINK --- 
 li.render-links--link:nth-child(1) {
   background-color: var(--ndd-dark-color);
 }
@@ -38,9 +38,9 @@ li.render-links--link:nth-child(1):hover {
   -webkit-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
   -ms-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
+}*/
 
-/* --- SECOND LINK --- */
+/* --- SECOND LINK --- 
 li.render-links--link:nth-child(2) {
   background-color: var(--ndd-orbix-primary-color);
 }
@@ -49,7 +49,7 @@ li.render-links--link:nth-child(2):hover {
   -webkit-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
   -ms-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
+}*/
 
 /* ---------------------- HEADER ---------------------- */
 
