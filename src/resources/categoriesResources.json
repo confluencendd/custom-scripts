@@ -19,7 +19,7 @@
         "text": "I need some help"
       },
       "Segurança e compliance": {
-        "text": "Security & compliance"
+        "text": "Security and compliance"
       }
     },
     "es": {
@@ -30,11 +30,11 @@
         "text": "Busco ayuda"
       },
       "Segurança e compliance": {
-        "text": "Seguridad y compliance"
+        "text": "Seguridad y cumplimiento"
       }
     }
   },
-  "ndd orbix": {
+  "nddorbix": {
     "pt": {
       "Informações complementares": {
         "text": "Informações complementares"
@@ -54,7 +54,7 @@
         "text": "I need some help"
       },
       "Segurança e compliance": {
-        "text": "Security & compliance"
+        "text": "Security and compliance"
       }
     },
     "es": {
@@ -65,7 +65,7 @@
         "text": "Busco ayuda"
       },
       "Segurança e compliance": {
-        "text": "Seguridad y compliance"
+        "text": "Seguridad y cumplimiento"
       }
     }
   },
