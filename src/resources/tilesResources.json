@@ -73,7 +73,7 @@
     }
   },
 
-  "ndd print": {
+  "nddprint": {
     "pt": {
       "Comece aqui": {
         "headline": "Comece aqui"

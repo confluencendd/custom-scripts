@@ -69,7 +69,7 @@
       }
     }
   },
-  "ndd print": {
+  "nddprint": {
     "pt": {
       "Manuais": {
         "text": "Manuais"

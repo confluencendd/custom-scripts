@@ -51,7 +51,7 @@
       }
     }
   },
-  "ndd print": {
+  "nddprint": {
     "pt": {
       "Suporte": {
         "text": "Suporte"
