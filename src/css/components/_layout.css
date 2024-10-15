@@ -34,18 +34,6 @@ div.three-with-sidebars > .cell.sidebars:hover {
   background-color: var(--ndd-gray90-color);
 }
 
-div.two-equal > .cell.normal img,
-div.three-equal > .cell.normal img,
-div.two-right-sidebar > .cell.normal img,
-div.two-right-sidebar > .cell.aside img,
-div.two-left-sidebar > .cell.normal img,
-div.two-left-sidebar > .cell.aside img,
-div.three-with-sidebars > .cell.normal img,
-div.three-with-sidebars > .cell.sidebars img {
-  max-width: var(--ndd-size-xlarge);
-  box-shadow: none;
-}
-
 div.two-equal > .cell.normal figure.vp-image.image-center,
 div.three-equal > .cell.normal figure.vp-image.image-center,
 div.two-right-sidebar > .cell.normal figure.vp-image.image-center,
@@ -56,4 +44,15 @@ div.three-with-sidebars > .cell.normal figure.vp-image.image-center,
 div.three-with-sidebars > .cell.sidebars figure.vp-image.image-center {
   justify-content: center;
   display: flex;
+}
+
+div.two-equal > .cell.normal img,
+div.three-equal > .cell.normal img,
+div.two-right-sidebar > .cell.normal img,
+div.two-right-sidebar > .cell.aside img,
+div.two-left-sidebar > .cell.normal img,
+div.two-left-sidebar > .cell.aside img,
+div.three-with-sidebars > .cell.normal img,
+div.three-with-sidebars > .cell.sidebars img {
+  box-shadow: none;
 }

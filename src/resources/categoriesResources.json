@@ -68,5 +68,40 @@
         "text": "Seguridad y compliance"
       }
     }
+  },
+  "ndd print": {
+    "pt": {
+      "Manuais": {
+        "text": "Manuais"
+      },
+      "Guias": {
+        "text": "Guias"
+      },
+      "Ferramentas": {
+        "text": "Ferramentas"
+      }
+    },
+    "en": {
+      "Manuais": {
+        "text": "Manuals"
+      },
+      "Guias": {
+        "text": "Guides"
+      },
+      "Ferramentas": {
+        "text": "Tools"
+      }
+    },
+    "es": {
+      "Manuais": {
+        "text": "Manuales"
+      },
+      "Guias": {
+        "text": "Guías"
+      },
+      "Ferramentas": {
+        "text": "Herramientas"
+      }
+    }
   }
 }

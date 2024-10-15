@@ -35,5 +35,6 @@
   --ndd-size-medium: 16px;
   --ndd-size-large: 24px;
   --ndd-size-xlarge: 48px;
-  --ndd-primary-font: "MuseoModerno", sans-serif;
+  --ndd-special-font: "MuseoModerno", sans-serif;
+  --ndd-primary-font: "Poppins", sans-serif;
 }

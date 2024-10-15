@@ -50,5 +50,22 @@
         "text": "Ventas"
       }
     }
+  },
+  "ndd print": {
+    "pt": {
+      "Suporte": {
+        "text": "Suporte"
+      }
+    },
+    "en": {
+      "Suporte": {
+        "text": "Support"
+      }
+    },
+    "es": {
+      "Suporte": {
+        "text": "Soporte"
+      }
+    }
   }
 }

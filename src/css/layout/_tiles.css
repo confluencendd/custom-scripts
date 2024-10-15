@@ -19,6 +19,7 @@ img.tile__image {
 h3.tile__headline {
   font-size: 18px;
   text-align: left;
+  font-family: var(--ndd-primary-font);
 }
 
 p.tile__description {

@@ -11,7 +11,8 @@ import { translateHeaderLinks } from '../components/translation/headerLinks';
 import { translatePlaceholderSearchBar } from '../components/translation/placeholder';
 
 import { formatBreadcrumbs } from '../js/utils/breadcrumbs';
-import { createTimeToReadComponent } from '../components/header-bar/header-bar';
+import { createTimeToReadComponent } from '../components/header-bar/time-to-read';
+import { createlanguagePicker } from '../components/header-bar/language-picker';
 
 const languagePicked = getCurrentLanguage();
 const product = getCurrentProduct();
@@ -30,6 +31,8 @@ runFunctionByRoute(() => translatePlaceholderSearchBar(languagePicked));
 runFunctionByRoute(() => formatBreadcrumbs());
 
 runFunctionByRoute(() => createTimeToReadComponent(languagePicked))
+
+//runFunctionByRoute(() => createlanguagePicker())
 
 
 

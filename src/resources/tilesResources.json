@@ -35,7 +35,7 @@
       }
     }
   },
-  
+
   "ndd orbix": {
     "pt": {
       "Conheça o NDD Orbix": {
@@ -69,6 +69,99 @@
       },
       "FAQ": {
         "headline": "FAQ - EN"
+      }
+    }
+  },
+
+  "ndd print": {
+    "pt": {
+      "Comece aqui": {
+        "headline": "Comece aqui"
+      },
+      "Guia rápido": {
+        "headline": "Guia rápido"
+      },
+      "Guia de compatibilidade de fabricantes": {
+        "headline": "Guia de compatibilidade de fabricantes"
+      },
+      "Guia de módulos do MPS": {
+        "headline": "Guia de módulos do MPS"
+      },
+      "Solução de problemas": {
+        "headline": "Solução de problemas"
+      },
+      "FAQ": {
+        "headline": "FAQ"
+      },
+      "Tutoriais": {
+        "headline": "Tutoriais"
+      },
+      "Treinamentos": {
+        "headline": "Treinamentos"
+      },
+      "Guia de instalação em massa Canon": {
+        "headline": "Guia de instalação em massa Canon"
+      },
+      "Guia de criação de políticas": {
+        "headline": "Guia de criação de políticas"
+      }
+    },
+    "en": {
+      "Comece aqui": {
+        "headline": "Getting started"
+      },
+      "Guia rápido": {
+        "headline": "Quick guide"
+      },
+      "Guia de compatibilidade de fabricantes": {
+        "headline": "Manufacturer Compatibility Guide"
+      },
+      "Solução de problemas": {
+        "headline": "Troubleshooting"
+      },
+      "FAQ": {
+        "headline": "FAQ"
+      },
+      "Tutoriais": {
+        "headline": "How to"
+      },
+      "Treinamentos": {
+        "headline": "Trainings"
+      },
+      "Guia de instalação em massa Canon": {
+        "headline": "Canon massive installation guide"
+      },
+      "Guia de criação de políticas": {
+        "headline": "Guide to creating policies"
+      }
+    },
+    "es": {
+      "Comece aqui": {
+        "headline": "Empieza aqu"
+      },
+      "Guia rápido": {
+        "headline": "Guía rápida"
+      },
+      "Guia de módulos do MPS": {
+        "headline": "Guía de módulos MPS"
+      },
+      "Solução de problemas": {
+        "headline": "Solución de problemas"
+      },
+      "FAQ": {
+        "headline": "FAQ"
+      },
+      "Tutoriais": {
+        "headline": "Tutoriales"
+      },
+      "Treinamentos": {
+        "headline": "Entrenamientos"
+      },
+      "Guia de instalação em massa Canon": {
+        "headline": "Guía de instalación masiva Canon"
+      },
+      "Guia de criação de políticas": {
+        "headline": "Guía de creación de políticas"
       }
     }
   }
