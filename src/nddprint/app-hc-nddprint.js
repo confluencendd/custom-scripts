@@ -16,11 +16,11 @@ const languagePicked = getCurrentLanguage();
 const product = getCurrentProduct();
 
 
-//runFunctionByRoute(() => translateTiles(product, languagePicked), '/');
+runFunctionByRoute(() => translateTiles(product, languagePicked), '/');
 
-//runFunctionByRoute(() => translateCategories(product, languagePicked), '/');
+runFunctionByRoute(() => translateCategories(product, languagePicked), '/');
 
-//runFunctionByRoute(() => translateHeaderLinks(product, languagePicked));
+runFunctionByRoute(() => translateHeaderLinks(product, languagePicked));
 
 runFunctionByRoute(() => translatePlaceholderSearchBar(languagePicked));
 
