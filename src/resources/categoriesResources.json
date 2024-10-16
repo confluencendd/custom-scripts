@@ -79,6 +79,12 @@
       },
       "Ferramentas": {
         "text": "Ferramentas"
+      },
+      "Preciso de ajuda": {
+        "text": "Preciso de ajuda"
+      },
+      "Terminais de liberação e Digital Shift": {
+        "text": "Terminais de liberação e Digital Shift"
       }
     },
     "en": {
@@ -90,6 +96,12 @@
       },
       "Ferramentas": {
         "text": "Tools"
+      },
+      "Preciso de ajuda": {
+        "text": "I need some help"
+      },
+      "Terminais de liberação e Digital Shift": {
+        "text": "Release terminals and Digital Shift"
       }
     },
     "es": {
@@ -101,6 +113,12 @@
       },
       "Ferramentas": {
         "text": "Herramientas"
+      },
+      "Preciso de ajuda": {
+        "text": "Busco ayuda"
+      },
+      "Terminais de liberação e Digital Shift": {
+        "text": "Terminales de liberación y Digital Shift"
       }
     }
   }
