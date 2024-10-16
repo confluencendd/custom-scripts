@@ -133,6 +133,10 @@
         "headline": "Release notes",
         "description": "Histórico de versões: novas funcionalidades, melhorias, correções e homologações."
       },
+      "Segurança e compliance": {
+        "headline": "Segurança e compliance",
+        "description": "Saiba como a NDD garante a segurança e o compliance dos seus dados."
+      },
       "Academia": {
         "headline": "Academia",
         "description": "Obtenha certificações com os treinamentos sobre o NDD Orbix oferecidos pelo NDD Academy."
@@ -164,6 +168,10 @@
         "headline": "Release notes",
         "description": "Version history: new features, improvements, fixes and approvals."
       },
+      "Segurança e compliance": {
+        "headline": "Security and compliance",
+        "description": "Learn how NDD guarantees the security and compliance of your data."
+      },
       "Academia": {
         "headline": "Academy",
         "description": "Get certified with the NDD Orbix trainings offered by the NDD Academy."
@@ -194,6 +202,10 @@
       "Release notes": {
         "headline": "Release notes",
         "description": "Historial de versiones: nuevas funcionalidades, mejoras, correcciones y homologaciones."
+      },
+      "Segurança e compliance": {
+        "headline": "Seguridad y cumplimiento",
+        "description": "Descubra cómo NDD garantiza la seguridad y el cumplimiento de sus datos."
       },
       "Academia": {
         "headline": "Academia",
