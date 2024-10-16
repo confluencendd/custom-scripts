@@ -72,9 +72,9 @@ ul[aria-labelledby="Precisodeajuda"] > li.tile--spacious {
   color: var(--ndd-text-color);
 }
 
-/*ul[aria-labelledby="Precisodeajuda"] h3.tile__headline {
+ul[aria-labelledby="Precisodeajuda"] h3.tile__headline {
   color: var(--ndd-text-color);
-}*/
+}
 
 /* --- TILES HELP CATEGORY --- */
 
