@@ -2,6 +2,7 @@ import * as styles from '../css/theme/_validacao.css';
 
 import { getCurrentLanguage } from '../js/utils/getLanguage'
 import { getCurrentProduct } from '../js/utils/getProduct';
+import { redirectLinks } from '../js/utils/redirect';
 import { runFunctionByRoute } from '../js/utils/route'
 
 import { translateTiles } from '../components/translation/tiles';
@@ -14,6 +15,8 @@ import { createTimeToReadComponent } from '../components/header-bar/time-to-read
 
 const languagePicked = getCurrentLanguage();
 const product = getCurrentProduct();
+
+runFunctionByRoute(() => redirectLinks(product, languagePicked), '/');
 
 runFunctionByRoute(() => translateTiles(product, languagePicked), '/');
 
