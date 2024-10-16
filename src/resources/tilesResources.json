@@ -230,7 +230,16 @@
   "nddprint": {
     "pt": {
       "Comece aqui": {
-        "headline": "Comece aqui"
+        "headline": "Comece aqui",
+        "description": "Entenda o conceito dos módulos, funcionalidades e cenários do NDD Print."
+      },
+      "Release notes": {
+        "headline": "Release notes",
+        "description": "Histórico de versões: novas funcionalidades, melhorias, correções e homologações."
+      },
+      "Treinamentos": {
+        "headline": "Treinamentos",
+        "description": "Obtenha certificações com os treinamentos sobre o NDD Orbix oferecidos pelo NDD Academy."
       },
       "Guia rápido": {
         "headline": "Guia rápido"
@@ -250,9 +259,6 @@
       "Tutoriais": {
         "headline": "Tutoriais"
       },
-      "Treinamentos": {
-        "headline": "Treinamentos"
-      },
       "Guia de instalação em massa Canon": {
         "headline": "Guia de instalação em massa Canon"
       },
@@ -262,7 +268,16 @@
     },
     "en": {
       "Comece aqui": {
-        "headline": "Getting started"
+        "headline": "Getting started",
+        "description": "Understand the concept of NDD Print modules, functionalities and scenarios."
+      },
+      "Release notes": {
+        "headline": "Release notes",
+        "description": "Version history: new features, improvements, fixes and approvals."
+      },
+      "Treinamentos": {
+        "headline": "Trainings",
+        "description": "Get certified with the NDD Orbix trainings offered by the NDD Academy."
       },
       "Guia rápido": {
         "headline": "Quick guide"
@@ -279,9 +294,6 @@
       "Tutoriais": {
         "headline": "How to"
       },
-      "Treinamentos": {
-        "headline": "Trainings"
-      },
       "Guia de instalação em massa Canon": {
         "headline": "Canon massive installation guide"
       },
@@ -291,7 +303,16 @@
     },
     "es": {
       "Comece aqui": {
-        "headline": "Empieza aqui"
+        "headline": "Empieza aqui",
+        "description": "Comprender el principio de los módulos, funcionalidades y escenarios de NDD Print."
+      },
+      "Release notes": {
+        "headline": "Release notes",
+        "description": "Historial de versiones: nuevas funcionalidades, mejoras, correcciones y homologaciones."
+      },
+      "Treinamentos": {
+        "headline": "Trainings",
+        "description": "Certifícate con los entrenamientos de NDD Orbix que ofrece NDD Academy."
       },
       "Guia rápido": {
         "headline": "Guía rápida"
@@ -307,9 +328,6 @@
       },
       "Tutoriais": {
         "headline": "Tutoriales"
-      },
-      "Treinamentos": {
-        "headline": "Entrenamientos"
       },
       "Guia de instalação em massa Canon": {
         "headline": "Guía de instalación masiva Canon"
