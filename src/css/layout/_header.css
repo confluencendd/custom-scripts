@@ -1,4 +1,4 @@
-header.header {
+header[data-vp-component="header"] {
   border: none !important;
 }
 

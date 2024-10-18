@@ -69,7 +69,7 @@ li.render-links--link:nth-child(2):hover {
 
 ul[aria-labelledby="Precisodeajuda"] > li.tile--spacious {
   align-items: center;
-  color: var(--ndd-text-color);
+  /* color: var(--ndd-text-color); */
 }
 
 ul[aria-labelledby="Precisodeajuda"] h3.tile__headline {
@@ -79,15 +79,15 @@ ul[aria-labelledby="Precisodeajuda"] h3.tile__headline {
 /* --- TILES HELP CATEGORY --- */
 
 /* --- TILES SECURITY CATEGORY --- */
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   ul[aria-labelledby="Segurançaecompliance"] > li.tile {
     grid-column: span 3;
   }
-}
+} */
 
 ul[aria-labelledby="Segurançaecompliance"] > li.tile--spacious {
   align-items: center;
-  color: var(--ndd-text-color);
+  /* color: var(--ndd-text-color); */
 }
 
 ul[aria-labelledby="Segurançaecompliance"] h3.tile__headline {
