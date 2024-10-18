@@ -153,6 +153,21 @@
       },
       "Solução de problemas": {
         "headline": "Solução de problemas"
+      },
+      "Falar com suporte": {
+        "headline": "Falar com suporte"
+      },
+      "Boletim de segurança": {
+        "headline": "Boletim de segurança"
+      },
+      "Documentos": {
+        "headline": "Documentos"
+      },
+      "Certificações": {
+        "headline": "Certificações"
+      },
+      "Privacidade de dados pessoais": {
+        "headline": "Privacidade de dados pessoais"
       }
     },
     "en": {
@@ -188,6 +203,21 @@
       },
       "Solução de problemas": {
         "headline": "Troubleshooting"
+      },
+      "Falar com suporte": {
+        "headline": "Talk to support"
+      },
+      "Boletim de segurança": {
+        "headline": "Security bulletin"
+      },
+      "Documentos": {
+        "headline": "Documents"
+      },
+      "Certificações": {
+        "headline": "Certifications"
+      },
+      "Privacidade de dados pessoais": {
+        "headline": "Personal data privacy"
       }
     },
     "es": {
@@ -223,6 +253,21 @@
       },
       "Solução de problemas": {
         "headline": "Solución de problemas"
+      },
+      "Falar com suporte": {
+        "headline": "Hablar con el soporte"
+      },
+      "Boletim de segurança": {
+        "headline": "Boletín de seguridad"
+      },
+      "Documentos": {
+        "headline": "Documentos"
+      },
+      "Certificações": {
+        "headline": "Certificaciones"
+      },
+      "Privacidade de dados pessoais": {
+        "headline": "Privacidad de datos personales"
       }
     }
   },

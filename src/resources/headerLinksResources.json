@@ -39,8 +39,8 @@
       "Suporte": {
         "text": "Suporte"
       },
-      "Blog NDD": {
-        "text": "Blog NDD"
+      "Blog": {
+        "text": "Blog"
       }
     },
     "en": {
@@ -56,8 +56,8 @@
       "Suporte": {
         "text": "Support"
       },
-      "Blog NDD": {
-        "text": "NDD blog"
+      "Blog": {
+        "text": "Blog"
       }
     },
     "es": {
@@ -73,8 +73,8 @@
       "Suporte": {
         "text": "Soporte"
       },
-      "Blog NDD": {
-        "text": "Blog NDD"
+      "Blog": {
+        "text": "Blog"
       }
     }
   },

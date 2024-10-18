@@ -79,11 +79,11 @@ ul[aria-labelledby="Precisodeajuda"] h3.tile__headline {
 /* --- TILES HELP CATEGORY --- */
 
 /* --- TILES SECURITY CATEGORY --- */
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
   ul[aria-labelledby="Segurançaecompliance"] > li.tile {
     grid-column: span 3;
   }
-}
+}*/
 
 ul[aria-labelledby="Segurançaecompliance"] > li.tile--spacious {
   align-items: center;
